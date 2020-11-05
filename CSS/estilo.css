@@ -1,0 +1,45 @@
+@font-face{
+    font-family:Confortaa;
+    src: url(../fontes/Comfortaa-Bold.ttf);
+}
+
+@font-face{
+    font-family: leagueSpartan;
+    src: url(../fontes/league-spartan-regular.ttf)
+}
+
+@font-face{
+    font-family: GlacialIndiferencce;
+    src: url(..//fontes/glacial-indifference.ttf);
+}
+
+body{
+
+    background-image: url(../images/bg1-vemsegura.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+}
+
+.menu{
+    width: 100%;
+    display: inline-block;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.menu a{
+    color: #FF8869 ;
+    text-decoration:none;
+    font-family: leagueSpartan;
+    display: inline-flex;
+    vertical-align: middle;
+    font-size: 20pt;
+    width: 17%;
+}
+
+.pag1{
+    text-align: right;
+    width: 60%;
+}
+}
