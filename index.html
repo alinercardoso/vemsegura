@@ -8,24 +8,63 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         
     </head>
-
+  <header>  
     <nav class = "menu">
-        <a href="index.html" >quem somos</a>
-        <a href="leis.html">direitos</a>
+        <a href="index.html" id="active">home</a>
+        <a href="leis.html">seus direitos</a>
         <a href="denuncia.html">denúncia</a>
         <a href="contato.html">contato</a>
         <a href="login.html"> login</a>
     </nav>
+  </header>
 
     <body>
-        <div class="container pag1">
-            <h1>VEM SEGURA, sua parceira no combate contra o assédio!</h1>
-            <br>
-            <h2>A VEM SEGURA é uma plataforma que visa proporcionar mais segurança às mulheres no transporte público da cidade do Rio de Janeiro.</h2>
-            <h2>Somos um canal direto entre você e a equipe de segurança que te dá o suporte necessário para denunciar seu agressor e terminar sua viagem em segurança.</h2>
+     
+    <div class="pagina-1">
+        <!--Usei o style inline pra mudar a propriedade apenas do container principal-->
+        <div class="container" style="width: 75%; float: right;">
+           <div class="config"> 
+            <h1 class="textoH1">VEM SEGURA, sua parceira no combate contra o assédio!</h1>
+
+            <div class="container">        
+                <p class="textop-1">A VEM SEGURA é uma plataforma que visa proporcionar mais segurança às mulheres no transporte público da cidade do Rio de Janeiro.</p>
+            </div>
+
+            <div class="container">
+                <p class="textop-2">Somos um canal direto de comunicação entre você e a equipe de segurança que te dá o suporte necessário para denunciar seu agressor e terminar sua viagem em segurança.</p>
+            </div>
+           </div> 
         </div>
 
+        <!--Imagens Primeira Página-->     
+        <img src="./images/mulheres_hp.png" class="img-mulheres" alt="">
+        <img src="./images/Logo.png" alt="" class="img-logo">
+    </div>
            
+        <!--Começo da segunda Página-->
+
+       <div class="pagina-2">
+           <div class="principal">  
+                <h1 class="textoH1-pg2">COMO FUNCIONA ?</h1>
+                <img id="menina-cel" src="./images/menina_segurança.png" alt="">
+                <p class="info-app">No VEM SEGURA, caso você sofra ou veja algum tipo de assédio ou importunação sexual dentro dos vagões ou estações, você aciona diretamente a equipe de segurança que podem te acompanhar, remover o agressor do local ou e até mesmo chamar a policía <br> <br>  Saiba mais sobre seus direitos nos casos de assédio e importunação sexual clicando <a href="./leis.html">aqui. </a></p>
+            </div>   
+            <p class="info-assedio">52% das mulheres que sofreram algum tipo de assédio não relataram tais abusos. <br> Vamos mudar isso!</p>
+
+            <img src="./images/Design_sem_nome-removebg-preview.png" alt="" id="garota-micro">
+
+
+           
+        </div> 
+
+            
+        <footer class="rodape">
+            <img id="logo-footer" src="./images/Logo.png" alt="" >
+        </footer>             
+
+       </div>
+
+        
         
        
     
