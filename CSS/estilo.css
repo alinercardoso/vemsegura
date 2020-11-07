@@ -195,7 +195,7 @@ body{
 
 
 #body-leis{
-    background-image: url(../images/bg1-vemsegura.png);
+    background-color: #FFF0E9;
     background-size: cover;
 }
 
@@ -209,7 +209,7 @@ body{
     color: #FF8869;
     text-align: center;
     line-height: 100px;
-    text-indent: 100px;
+    
     font-size: 26pt;
     font-weight: bolder;
 }
@@ -249,6 +249,58 @@ body{
     color: #49274a;
 }
 
-#cor-bege{
-    color: #f4decb;
+#cor-roxo2{
+    color:#94618e;
+}
+/*------------------PÁGINA DE DENUNCIA-----------------*/
+
+#body-denuncia{
+    background-color: #94618e;
+}
+
+.rodape2{
+    height: 100px;
+    background-color:#F4DECB;
+    display:flex ;
+    justify-content: center;
+
+}
+
+#titulo-denuncia{
+    font-family: Confortaa;
+    font-size: 30pt;
+    text-align: center;
+    color: #F4DECB;
+    vertical-align: middle;
+}
+
+label{
+    font-family: GlacialIndiferencce;
+    font-size: 15pt;
+    color: #F4DECB
+}
+
+.contatos{
+    color:#f4decb;
+    text-align: center;
+    font-size: 15pt;
+    font-family: GlacialIndiferencce;
+    width: 33%;
+    display: inline-block;
+    margin-top: 20px;
+    vertical-align: top ;
+}
+
+#contatos{
+    
+    width: 100%;
+}
+
+#titulo-contato{
+    font-family: Confortaa;
+    font-size: 30pt;
+    text-align: center;
+    color: #F4DECB;
+    padding-top: 120px;
+    
 }

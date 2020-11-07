@@ -25,15 +25,28 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Cadastro</title>
-    <link rel="stylesheet" type="text/css" href="../css/estilo.css"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="../js/script.js"></script>
 
-<body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Denuncia</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/CSS" href="./CSS/estilo.css">
+  <script src="../js/script.js"></script>
+
+</head>
+
+<header>
+  <nav class="menu">
+    <a href="index.html">home</a>
+    <a href="leis.html">seus direitos</a>
+    <a href="denuncia.php">denúncia</a>
+    <a href="contato.html">contato</a>
+    <a href="cadastro.php" id="active">cadastre-se</a>
+  </nav>
+</header>
+
+<body id="body-denuncia">
    <br><br>
 
    
@@ -41,7 +54,7 @@
      <div  class="container">
         <div class="row">
            <div class="col-4 mx-auto pt-4 container-login">
-               <h3 class="mb-4">Cadastrar</h3>       
+               <h3 id="titulo-denuncia" class="mb-4">Cadastrar</h3>       
                <form action="" role="form" method="post">
                   <div class="form-group-sm">   
                     <label for="nome">Nome:</label>
@@ -73,14 +86,17 @@
                     <input class="form-control" type="password" name="senha" id="senha"  placeholder="Senha" onkeyup="valida_campos()">
                   </div> 
                   <br>
-    
-                  <button type="submit" name="cadastrar" class="btn btn-success mb-4" id="cadastrar_usuario"> Enviar </button> 
-                  
+                  <center>
+                  <button type="submit" name="cadastrar" class="btn btn-secondary-color-dark mb-4" id="cadastrar_usuario"> Enviar </button> 
+                  </center>     
                </form>
    
             </div>
          </div>
       </div>
+  <footer class="rodape2">
+    <img id="logo-footer" src="./images/Logo.png" alt="">
+  </footer>
 </body>
 
 
